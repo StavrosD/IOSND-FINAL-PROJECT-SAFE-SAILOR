@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54665F2023F3380600E3EA63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F1F23F3380600E3EA63 /* AppDelegate.swift */; };
+		54665F2223F3380600E3EA63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F2123F3380600E3EA63 /* SceneDelegate.swift */; };
+		54665F2423F3380600E3EA63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F2323F3380600E3EA63 /* ViewController.swift */; };
+		54665F2723F3380600E3EA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54665F2523F3380600E3EA63 /* Main.storyboard */; };
+		54665F2A23F3380600E3EA63 /* Safe_Sailor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54665F2823F3380600E3EA63 /* Safe_Sailor.xcdatamodeld */; };
+		54665F2C23F3380800E3EA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54665F2B23F3380800E3EA63 /* Assets.xcassets */; };
+		54665F2F23F3380800E3EA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54665F2D23F3380800E3EA63 /* LaunchScreen.storyboard */; };
+		54665F3A23F3380800E3EA63 /* Safe_SailorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F3923F3380800E3EA63 /* Safe_SailorTests.swift */; };
+		54665F4523F3380800E3EA63 /* Safe_SailorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F4423F3380800E3EA63 /* Safe_SailorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54665F3623F3380800E3EA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54665F1423F3380600E3EA63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54665F1B23F3380600E3EA63;
+			remoteInfo = "Safe Sailor";
+		};
+		54665F4123F3380800E3EA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54665F1423F3380600E3EA63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54665F1B23F3380600E3EA63;
+			remoteInfo = "Safe Sailor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54665F1C23F3380600E3EA63 /* Safe Sailor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Sailor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54665F1F23F3380600E3EA63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54665F2123F3380600E3EA63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54665F2323F3380600E3EA63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54665F2623F3380600E3EA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54665F2923F3380600E3EA63 /* Safe_Sailor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Safe_Sailor.xcdatamodel; sourceTree = "<group>"; };
+		54665F2B23F3380800E3EA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54665F2E23F3380800E3EA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54665F3023F3380800E3EA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54665F3523F3380800E3EA63 /* Safe SailorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe SailorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54665F3923F3380800E3EA63 /* Safe_SailorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_SailorTests.swift; sourceTree = "<group>"; };
+		54665F3B23F3380800E3EA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54665F4023F3380800E3EA63 /* Safe SailorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe SailorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54665F4423F3380800E3EA63 /* Safe_SailorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_SailorUITests.swift; sourceTree = "<group>"; };
+		54665F4623F3380800E3EA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54665F1923F3380600E3EA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54665F3223F3380800E3EA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54665F3D23F3380800E3EA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54665F1323F3380600E3EA63 = {
+			isa = PBXGroup;
+			children = (
+				54665F1E23F3380600E3EA63 /* Safe Sailor */,
+				54665F3823F3380800E3EA63 /* Safe SailorTests */,
+				54665F4323F3380800E3EA63 /* Safe SailorUITests */,
+				54665F1D23F3380600E3EA63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54665F1D23F3380600E3EA63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54665F1C23F3380600E3EA63 /* Safe Sailor.app */,
+				54665F3523F3380800E3EA63 /* Safe SailorTests.xctest */,
+				54665F4023F3380800E3EA63 /* Safe SailorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54665F1E23F3380600E3EA63 /* Safe Sailor */ = {
+			isa = PBXGroup;
+			children = (
+				54665F1F23F3380600E3EA63 /* AppDelegate.swift */,
+				54665F2123F3380600E3EA63 /* SceneDelegate.swift */,
+				54665F2323F3380600E3EA63 /* ViewController.swift */,
+				54665F2523F3380600E3EA63 /* Main.storyboard */,
+				54665F2B23F3380800E3EA63 /* Assets.xcassets */,
+				54665F2D23F3380800E3EA63 /* LaunchScreen.storyboard */,
+				54665F3023F3380800E3EA63 /* Info.plist */,
+				54665F2823F3380600E3EA63 /* Safe_Sailor.xcdatamodeld */,
+			);
+			path = "Safe Sailor";
+			sourceTree = "<group>";
+		};
+		54665F3823F3380800E3EA63 /* Safe SailorTests */ = {
+			isa = PBXGroup;
+			children = (
+				54665F3923F3380800E3EA63 /* Safe_SailorTests.swift */,
+				54665F3B23F3380800E3EA63 /* Info.plist */,
+			);
+			path = "Safe SailorTests";
+			sourceTree = "<group>";
+		};
+		54665F4323F3380800E3EA63 /* Safe SailorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54665F4423F3380800E3EA63 /* Safe_SailorUITests.swift */,
+				54665F4623F3380800E3EA63 /* Info.plist */,
+			);
+			path = "Safe SailorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54665F1B23F3380600E3EA63 /* Safe Sailor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54665F4923F3380800E3EA63 /* Build configuration list for PBXNativeTarget "Safe Sailor" */;
+			buildPhases = (
+				54665F1823F3380600E3EA63 /* Sources */,
+				54665F1923F3380600E3EA63 /* Frameworks */,
+				54665F1A23F3380600E3EA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safe Sailor";
+			productName = "Safe Sailor";
+			productReference = 54665F1C23F3380600E3EA63 /* Safe Sailor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54665F3423F3380800E3EA63 /* Safe SailorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54665F4C23F3380800E3EA63 /* Build configuration list for PBXNativeTarget "Safe SailorTests" */;
+			buildPhases = (
+				54665F3123F3380800E3EA63 /* Sources */,
+				54665F3223F3380800E3EA63 /* Frameworks */,
+				54665F3323F3380800E3EA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54665F3723F3380800E3EA63 /* PBXTargetDependency */,
+			);
+			name = "Safe SailorTests";
+			productName = "Safe SailorTests";
+			productReference = 54665F3523F3380800E3EA63 /* Safe SailorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54665F3F23F3380800E3EA63 /* Safe SailorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54665F4F23F3380800E3EA63 /* Build configuration list for PBXNativeTarget "Safe SailorUITests" */;
+			buildPhases = (
+				54665F3C23F3380800E3EA63 /* Sources */,
+				54665F3D23F3380800E3EA63 /* Frameworks */,
+				54665F3E23F3380800E3EA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54665F4223F3380800E3EA63 /* PBXTargetDependency */,
+			);
+			name = "Safe SailorUITests";
+			productName = "Safe SailorUITests";
+			productReference = 54665F4023F3380800E3EA63 /* Safe SailorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54665F1423F3380600E3EA63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dimopoulos Stavros tou Athanasiou";
+				TargetAttributes = {
+					54665F1B23F3380600E3EA63 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					54665F3423F3380800E3EA63 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 54665F1B23F3380600E3EA63;
+					};
+					54665F3F23F3380800E3EA63 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 54665F1B23F3380600E3EA63;
+					};
+				};
+			};
+			buildConfigurationList = 54665F1723F3380600E3EA63 /* Build configuration list for PBXProject "Safe Sailor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54665F1323F3380600E3EA63;
+			productRefGroup = 54665F1D23F3380600E3EA63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54665F1B23F3380600E3EA63 /* Safe Sailor */,
+				54665F3423F3380800E3EA63 /* Safe SailorTests */,
+				54665F3F23F3380800E3EA63 /* Safe SailorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54665F1A23F3380600E3EA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54665F2F23F3380800E3EA63 /* LaunchScreen.storyboard in Resources */,
+				54665F2C23F3380800E3EA63 /* Assets.xcassets in Resources */,
+				54665F2723F3380600E3EA63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54665F3323F3380800E3EA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54665F3E23F3380800E3EA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54665F1823F3380600E3EA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54665F2A23F3380600E3EA63 /* Safe_Sailor.xcdatamodeld in Sources */,
+				54665F2423F3380600E3EA63 /* ViewController.swift in Sources */,
+				54665F2023F3380600E3EA63 /* AppDelegate.swift in Sources */,
+				54665F2223F3380600E3EA63 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54665F3123F3380800E3EA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54665F3A23F3380800E3EA63 /* Safe_SailorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54665F3C23F3380800E3EA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54665F4523F3380800E3EA63 /* Safe_SailorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54665F3723F3380800E3EA63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54665F1B23F3380600E3EA63 /* Safe Sailor */;
+			targetProxy = 54665F3623F3380800E3EA63 /* PBXContainerItemProxy */;
+		};
+		54665F4223F3380800E3EA63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54665F1B23F3380600E3EA63 /* Safe Sailor */;
+			targetProxy = 54665F4123F3380800E3EA63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54665F2523F3380600E3EA63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54665F2623F3380600E3EA63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54665F2D23F3380800E3EA63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54665F2E23F3380800E3EA63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54665F4723F3380800E3EA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54665F4823F3380800E3EA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54665F4A23F3380800E3EA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGAZ25CZ2W;
+				INFOPLIST_FILE = "Safe Sailor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.sdim.Safe-Sailor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54665F4B23F3380800E3EA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGAZ25CZ2W;
+				INFOPLIST_FILE = "Safe Sailor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.sdim.Safe-Sailor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54665F4D23F3380800E3EA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGAZ25CZ2W;
+				INFOPLIST_FILE = "Safe SailorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.sdim.Safe-SailorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safe Sailor.app/Safe Sailor";
+			};
+			name = Debug;
+		};
+		54665F4E23F3380800E3EA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGAZ25CZ2W;
+				INFOPLIST_FILE = "Safe SailorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.sdim.Safe-SailorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Safe Sailor.app/Safe Sailor";
+			};
+			name = Release;
+		};
+		54665F5023F3380800E3EA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGAZ25CZ2W;
+				INFOPLIST_FILE = "Safe SailorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.sdim.Safe-SailorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safe Sailor";
+			};
+			name = Debug;
+		};
+		54665F5123F3380800E3EA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGAZ25CZ2W;
+				INFOPLIST_FILE = "Safe SailorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.sdim.Safe-SailorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Safe Sailor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54665F1723F3380600E3EA63 /* Build configuration list for PBXProject "Safe Sailor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54665F4723F3380800E3EA63 /* Debug */,
+				54665F4823F3380800E3EA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54665F4923F3380800E3EA63 /* Build configuration list for PBXNativeTarget "Safe Sailor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54665F4A23F3380800E3EA63 /* Debug */,
+				54665F4B23F3380800E3EA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54665F4C23F3380800E3EA63 /* Build configuration list for PBXNativeTarget "Safe SailorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54665F4D23F3380800E3EA63 /* Debug */,
+				54665F4E23F3380800E3EA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54665F4F23F3380800E3EA63 /* Build configuration list for PBXNativeTarget "Safe SailorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54665F5023F3380800E3EA63 /* Debug */,
+				54665F5123F3380800E3EA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54665F2823F3380600E3EA63 /* Safe_Sailor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54665F2923F3380600E3EA63 /* Safe_Sailor.xcdatamodel */,
+			);
+			currentVersion = 54665F2923F3380600E3EA63 /* Safe_Sailor.xcdatamodel */;
+			path = Safe_Sailor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54665F1423F3380600E3EA63 /* Project object */;
+}
