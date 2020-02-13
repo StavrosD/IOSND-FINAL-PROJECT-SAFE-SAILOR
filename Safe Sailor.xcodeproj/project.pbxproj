@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5453A00423F4139300C25687 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A00323F4139300C25687 /* NetworkClient.swift */; };
+		5453A00623F4466000C25687 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A00523F4466000C25687 /* DataController.swift */; };
+		5453A00C23F44FBA00C25687 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5453A00B23F44FBA00C25687 /* Alamofire */; };
+		5453A00E23F454A800C25687 /* ShipStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A00D23F454A800C25687 /* ShipStruct.swift */; };
+		5453A01023F466EB00C25687 /* CreateTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A00F23F466EB00C25687 /* CreateTestData.swift */; };
+		5453A01423F4909B00C25687 /* ShipsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A01323F4909B00C25687 /* ShipsListViewController.swift */; };
+		5453A01623F4BED600C25687 /* AlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A01523F4BED600C25687 /* AlertProtocol.swift */; };
+		5453A01823F4C35100C25687 /* ShipsListViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A01723F4C35100C25687 /* ShipsListViewControllerExtension.swift */; };
+		5453A01A23F4CD8B00C25687 /* ShipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A01923F4CD8B00C25687 /* ShipTableViewCell.swift */; };
+		5453A01C23F5676400C25687 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5453A01B23F5676400C25687 /* Readme.md */; };
+		5453A01E23F572E800C25687 /* MainViewControllerMapExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A01D23F572E800C25687 /* MainViewControllerMapExtension.swift */; };
+		5453A02223F5941E00C25687 /* MainViewControllerUtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5453A02123F5941E00C25687 /* MainViewControllerUtilityFunctions.swift */; };
+		5453A02F23F5BDF200C25687 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5453A02E23F5BDF100C25687 /* Screenshot.png */; };
 		54665F2023F3380600E3EA63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F1F23F3380600E3EA63 /* AppDelegate.swift */; };
 		54665F2223F3380600E3EA63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F2123F3380600E3EA63 /* SceneDelegate.swift */; };
-		54665F2423F3380600E3EA63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F2323F3380600E3EA63 /* ViewController.swift */; };
 		54665F2723F3380600E3EA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54665F2523F3380600E3EA63 /* Main.storyboard */; };
 		54665F2A23F3380600E3EA63 /* Safe_Sailor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54665F2823F3380600E3EA63 /* Safe_Sailor.xcdatamodeld */; };
 		54665F2C23F3380800E3EA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54665F2B23F3380800E3EA63 /* Assets.xcassets */; };
 		54665F2F23F3380800E3EA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54665F2D23F3380800E3EA63 /* LaunchScreen.storyboard */; };
 		54665F3A23F3380800E3EA63 /* Safe_SailorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F3923F3380800E3EA63 /* Safe_SailorTests.swift */; };
 		54665F4523F3380800E3EA63 /* Safe_SailorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F4423F3380800E3EA63 /* Safe_SailorUITests.swift */; };
+		54665F5323F34E5E00E3EA63 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54665F5223F34E5E00E3EA63 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5453A00323F4139300C25687 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		5453A00523F4466000C25687 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		5453A00D23F454A800C25687 /* ShipStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipStruct.swift; sourceTree = "<group>"; };
+		5453A00F23F466EB00C25687 /* CreateTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTestData.swift; sourceTree = "<group>"; };
+		5453A01323F4909B00C25687 /* ShipsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipsListViewController.swift; sourceTree = "<group>"; };
+		5453A01523F4BED600C25687 /* AlertProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertProtocol.swift; path = "../../IOSND-VirtualTurist/IOSND-VirtualTurist/View Controllers/Protocols/AlertProtocol.swift"; sourceTree = "<group>"; };
+		5453A01723F4C35100C25687 /* ShipsListViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipsListViewControllerExtension.swift; sourceTree = "<group>"; };
+		5453A01923F4CD8B00C25687 /* ShipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipTableViewCell.swift; sourceTree = "<group>"; };
+		5453A01B23F5676400C25687 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		5453A01D23F572E800C25687 /* MainViewControllerMapExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerMapExtension.swift; sourceTree = "<group>"; };
+		5453A02123F5941E00C25687 /* MainViewControllerUtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerUtilityFunctions.swift; sourceTree = "<group>"; };
+		5453A02E23F5BDF100C25687 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screenshot.png; path = "Safe Sailor/Screenshot.png"; sourceTree = "<group>"; };
 		54665F1C23F3380600E3EA63 /* Safe Sailor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Sailor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54665F1F23F3380600E3EA63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54665F2123F3380600E3EA63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		54665F2323F3380600E3EA63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54665F2623F3380600E3EA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54665F2923F3380600E3EA63 /* Safe_Sailor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Safe_Sailor.xcdatamodel; sourceTree = "<group>"; };
 		54665F2B23F3380800E3EA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +75,7 @@
 		54665F4023F3380800E3EA63 /* Safe SailorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safe SailorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54665F4423F3380800E3EA63 /* Safe_SailorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe_SailorUITests.swift; sourceTree = "<group>"; };
 		54665F4623F3380800E3EA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54665F5223F34E5E00E3EA63 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5453A00C23F44FBA00C25687 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +104,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5453A02323F5BB4100C25687 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5453A00523F4466000C25687 /* DataController.swift */,
+				5453A00D23F454A800C25687 /* ShipStruct.swift */,
+				5453A00F23F466EB00C25687 /* CreateTestData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5453A02423F5BB4F00C25687 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5453A01323F4909B00C25687 /* ShipsListViewController.swift */,
+				5453A02B23F5BCDE00C25687 /* Extensions */,
+				54665F5223F34E5E00E3EA63 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5453A02523F5BB6400C25687 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5453A02723F5BB9300C25687 /* Protocols */,
+				5453A02623F5BB6F00C25687 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5453A02623F5BB6F00C25687 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5453A01923F4CD8B00C25687 /* ShipTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5453A02723F5BB9300C25687 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				54665F1F23F3380600E3EA63 /* AppDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5453A02923F5BBAD00C25687 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				54665F2D23F3380800E3EA63 /* LaunchScreen.storyboard */,
+				54665F2523F3380600E3EA63 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5453A02A23F5BBC900C25687 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				54665F2B23F3380800E3EA63 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5453A02B23F5BCDE00C25687 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5453A01723F4C35100C25687 /* ShipsListViewControllerExtension.swift */,
+				5453A01D23F572E800C25687 /* MainViewControllerMapExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5453A02D23F5BD3D00C25687 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5453A00323F4139300C25687 /* NetworkClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		54665F1323F3380600E3EA63 = {
 			isa = PBXGroup;
 			children = (
+				5453A02E23F5BDF100C25687 /* Screenshot.png */,
+				5453A01B23F5676400C25687 /* Readme.md */,
 				54665F1E23F3380600E3EA63 /* Safe Sailor */,
 				54665F3823F3380800E3EA63 /* Safe SailorTests */,
 				54665F4323F3380800E3EA63 /* Safe SailorUITests */,
@@ -101,14 +208,17 @@
 		54665F1E23F3380600E3EA63 /* Safe Sailor */ = {
 			isa = PBXGroup;
 			children = (
-				54665F1F23F3380600E3EA63 /* AppDelegate.swift */,
+				5453A02A23F5BBC900C25687 /* Assets */,
+				5453A02323F5BB4100C25687 /* Model */,
+				5453A02D23F5BD3D00C25687 /* Network */,
 				54665F2123F3380600E3EA63 /* SceneDelegate.swift */,
-				54665F2323F3380600E3EA63 /* ViewController.swift */,
-				54665F2523F3380600E3EA63 /* Main.storyboard */,
-				54665F2B23F3380800E3EA63 /* Assets.xcassets */,
-				54665F2D23F3380800E3EA63 /* LaunchScreen.storyboard */,
+				5453A02923F5BBAD00C25687 /* Storyboards */,
+				5453A02523F5BB6400C25687 /* Views */,
+				5453A02423F5BB4F00C25687 /* ViewControllers */,
+				5453A01523F4BED600C25687 /* AlertProtocol.swift */,
 				54665F3023F3380800E3EA63 /* Info.plist */,
 				54665F2823F3380600E3EA63 /* Safe_Sailor.xcdatamodeld */,
+				5453A02123F5941E00C25687 /* MainViewControllerUtilityFunctions.swift */,
 			);
 			path = "Safe Sailor";
 			sourceTree = "<group>";
@@ -147,6 +257,9 @@
 			dependencies = (
 			);
 			name = "Safe Sailor";
+			packageProductDependencies = (
+				5453A00B23F44FBA00C25687 /* Alamofire */,
+			);
 			productName = "Safe Sailor";
 			productReference = 54665F1C23F3380600E3EA63 /* Safe Sailor.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +332,9 @@
 				Base,
 			);
 			mainGroup = 54665F1323F3380600E3EA63;
+			packageReferences = (
+				5453A00A23F44FB900C25687 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 54665F1D23F3380600E3EA63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,7 +353,9 @@
 			files = (
 				54665F2F23F3380800E3EA63 /* LaunchScreen.storyboard in Resources */,
 				54665F2C23F3380800E3EA63 /* Assets.xcassets in Resources */,
+				5453A01C23F5676400C25687 /* Readme.md in Resources */,
 				54665F2723F3380600E3EA63 /* Main.storyboard in Resources */,
+				5453A02F23F5BDF200C25687 /* Screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +380,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5453A01E23F572E800C25687 /* MainViewControllerMapExtension.swift in Sources */,
+				5453A02223F5941E00C25687 /* MainViewControllerUtilityFunctions.swift in Sources */,
 				54665F2A23F3380600E3EA63 /* Safe_Sailor.xcdatamodeld in Sources */,
-				54665F2423F3380600E3EA63 /* ViewController.swift in Sources */,
+				5453A01A23F4CD8B00C25687 /* ShipTableViewCell.swift in Sources */,
+				5453A01623F4BED600C25687 /* AlertProtocol.swift in Sources */,
+				5453A01423F4909B00C25687 /* ShipsListViewController.swift in Sources */,
+				5453A01823F4C35100C25687 /* ShipsListViewControllerExtension.swift in Sources */,
 				54665F2023F3380600E3EA63 /* AppDelegate.swift in Sources */,
+				5453A00423F4139300C25687 /* NetworkClient.swift in Sources */,
+				5453A00623F4466000C25687 /* DataController.swift in Sources */,
+				5453A01023F466EB00C25687 /* CreateTestData.swift in Sources */,
+				5453A00E23F454A800C25687 /* ShipStruct.swift in Sources */,
 				54665F2223F3380600E3EA63 /* SceneDelegate.swift in Sources */,
+				54665F5323F34E5E00E3EA63 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +722,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5453A00A23F44FB900C25687 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "5.0.0-rc.3";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5453A00B23F44FBA00C25687 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5453A00A23F44FB900C25687 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		54665F2823F3380600E3EA63 /* Safe_Sailor.xcdatamodeld */ = {
